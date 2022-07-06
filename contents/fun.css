@@ -1,0 +1,60 @@
+.many img {width: 20%; height: 200px; display: inline-block; cursor: pointer; box-sizing: border-box; margin: 100px 10px; }
+body {margin:0px 150px; background-color: #D3D3D3;}
+.many {margin-left: 150px;}
+*{font-family: 'Poppins', sans-serif;}
+h1{text-transform: uppercase}
+html {background-color: #D3D3D3;}
+.logo{float:left; margin:5px;}
+
+.logo img{width: 50px; height: 50px;}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #0E3386;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0E3386;
+}
+li {
+  float: left;
+}
+.nav-area button {float: right;}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.abc {float: right}
+li a:hover:not(.active) {
+  background-color: 	#696969;
+}
+.active {
+  background-color:#696969; color: white;
+}
+.manys img {width: 20%; height: 200px; display: inline-block; cursor: pointer; box-sizing: border-box; margin: 100px 20px;}
+.manys {margin-left: 200px}
+label {
+        display: inline-block;
+        width: 150px;
+      }
+input {width: 20%}
+input[type=submit], input[type=reset] {width: 10%;}
+button {width:10%;}
+.do p {text-align: center;}

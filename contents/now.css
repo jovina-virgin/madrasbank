@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 25% 30%;
+	text-align: center;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: white;
+}
+header {
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("../imgs/bank.jpg");
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 50px;
+	height: 50px;
+	padding: 15px 0;
+}
+.about h1 {color:white;text-align: center; text-transform: uppercase;
+	font-size: 60px;  }
+.about h1 span {
+	color: white;
+}
+.about {
+	position: absolute;
+	width: 800px;
+	height: 300px;
+	margin: 15% 25%;
+	text-align: center;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+
+}
+.about p{font-size: 18px}
+form { max-width:420px; margin:50px auto; }
+.feedback-input {
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid grey;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+.feedback-input:focus { border:2px solid white; }
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+form h1 {color:white;}
+[type="submit"]:hover { background:#696969;  }
+[type="submit"] {
+  width: 100%;
+  background:grey;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
